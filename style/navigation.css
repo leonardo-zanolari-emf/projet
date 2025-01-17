@@ -1,0 +1,63 @@
+/* Style du conteneur de navigation */
+#navigation {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* Style des liens dans le menu de navigation */
+#navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 21px 25px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+/* Effet au survol des liens */
+#navigation a:hover {
+    color: #ffcc00;
+    transition: color 0.3s ease;
+}
+
+/* Médias queries pour les écrans de largeur maximale 1024px */
+@media (max-width: 1024px) {
+    #navigation a {
+        font-size: 16px;
+    }
+}
+
+/* Médias queries pour les écrans de largeur minimale 1025px */
+@media (min-width: 1025px) {
+    #navigation a {
+        font-size: 18px;
+    }
+}
+
+/* Médias queries pour les écrans de largeur maximale 768px (smartphones/tablettes) */
+@media (max-width: 768px) {
+    nav {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #navigation {
+        display: flex;
+        flex-direction: column;
+        padding-top: 90px;
+        text-align: left;
+    }
+
+    #navigation a {
+        font-size: 14px;
+        padding: 8px 12px;
+
+    }
+}
+
+/* Style de fond pour la page entière */
+body {
+    background-color: black;
+}

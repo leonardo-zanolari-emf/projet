@@ -1,0 +1,97 @@
+        /* image unique */
+#jeuxpong {
+    display: flex;
+    margin-right: 80px;
+    height: 300px;
+    margin-top: 8%;
+}
+        /* emplacement de l'image */
+.imgright {
+    display: flex;
+    flex-direction: row;
+    margin-right: 160px;
+    margin-left: 30px;
+    height: 250px;
+}
+        /* emplacement de l'image */
+.imgleft {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    margin-left: 160px;
+    height: 250px;
+}
+
+
+
+@media (max-width: 1024px) {
+    #premiereConsole {
+        flex-direction: column;
+        /* Stack elements vertically for tablets */
+        margin-right: 0;
+        margin-left: 0;
+        height: auto;
+        margin-top: 6%;
+        /* Adjust top margin for tablets */
+    }
+
+    .imgright,
+    .imgleft {
+        margin-right: 20px;
+        /* Reduce margin for tablets */
+        margin-left: 20px;
+        /* Reduce margin for tablets */
+        height: 220px;
+        /* Adjust height for tablets */
+        flex-direction: column;
+        /* Stack images vertically for tablets */
+    }
+}
+
+@media (min-width: 1025px) {
+    #premiereConsole {
+        flex-direction: row;
+        /* Keep elements in a row for desktop */
+        margin-right: 80px;
+        margin-left: 0;
+        height: 300px;
+        /* Retain original height for desktop */
+        margin-top: 8%;
+    }
+
+    .imgright,
+    .imgleft {
+        margin-right: 160px;
+        /* Reset margin for larger screens */
+        margin-left: 30px;
+        height: 250px;
+        /* Keep original height for desktop */
+        flex-direction: row;
+        /* Keep images in a row for desktop */
+    }
+}
+
+@media (max-width: 768px) {
+    #premiereConsole {
+        flex-direction: column;
+        /* Stack elements vertically on mobile */
+        margin-right: 0;
+        margin-left: 0;
+        height: auto;
+        /* Adjust height to auto on smaller screens */
+        margin-top: 5%;
+        /* Reduce top margin for mobile */
+    }
+
+    .imgright,
+    .imgleft {
+        margin-right: 10px;
+        /* Reduce margin for smaller screens */
+        margin-left: 10px;
+        /* Reduce margin for smaller screens */
+        height: 200px;
+        /* Adjust height for smaller screens */
+        flex-direction: column;
+        /* Stack images vertically */
+    }
+}
