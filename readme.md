@@ -62,15 +62,29 @@ J'ai décidé d'ajouter des sources car je ne savais pas qu'il fallait les mettr
 
 
 ## Les technologies
-
-
-
+* js
+* html
+* css
 ## Tests
 
-| First Header  | Second Header | Second Header | Second Header |
-| ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 
+Voici le contenu que vous avez fourni converti en un tableau Markdown pour un fichier README.md :
 
+markdown
+Copiar
+# Résultats des Tests
 
-||
+| N° Test | Description                                          | Système  | Connexion | Navigateur | Résultat Attendu                                               | Résultat Obtenu       | Résultat du Test |
+|---------|------------------------------------------------------|----------|-----------|------------|---------------------------------------------------------------|-----------------------|------------------|
+| 1       | Affichage de la page index                           | Win11    | Filaire   | Opera      | La page n'a aucun problème d'affichage quand je la change de résolution | La page s'affiche     | Réussi           |
+| 2       | Affichage de la page les consoles et leur impact     | iPhone   | Wifi      | Chrome     | Tous les objets de la page s'affichent correctement et dans les emplacements souhaités | La page s'affiche     | Réussi           |
+| 3       | Affichage de la page Histoire des jeux vidéo        | iPhone   | Wifi      | Safari     | Tous les objets de la page s'affichent correctement et dans les emplacements souhaités | La page s'affiche     | Réussi           |
+| 4       | Validation W3C page d'accueil                        | -        | -         | -          | La page d'accueil est conforme W3C                              | Conforme W3C          | Réussi           |
+| 5       | Validation W3C page principales avancées techniques et technologiques | -        | -         | -          | La page principales avancées techniques et technologiques est conforme W3C | Conforme W3C          | Réussi           |
+| 6       | Validation W3C page les consoles et leur impact      | -        | -         | -          | La page les consoles et leur impact est conforme W3C           | Conforme W3C          | Réussi           |
+| 7       | Validation W3C page le grand crash du jeu vidéo      | -        | -         | -          | La page le grand crash du jeu vidéo est conforme W3C           | Conforme W3C          | Réussi           |
+| 8       | Validation W3C page naissance du jeu vidéo et source | -        | -         | -          | La page naissance du jeu vidéo et source est conforme W3C      | Conforme W3C          | Réussi           |
+| 9       | Affichage de la barre de navigation                  | iPhone   | Wifi      | Chrome     | La barre doit être en colonne et rien ne doit cacher le titre  | Elle fonctionne parfaitement | Réussi       |
+| 10      | Affichage de la barre de navigation                  | Win11    | Filaire   | Edge       | La barre doit être en ligne et rien ne doit être caché         | Parfait               | Réussi           |
+| 11      | Transition entre les pages                          | iPhone   | Wifi      | Safari     | La transition doit marcher de manière conforme au paramètre   | Elle marche sans problème | Réussi       |
+| 12      | Transition entre les pages                          | Win11    | Filaire   | Opera      | La transition doit marcher de manière conforme au paramètre   | Elle marche           | Réussi           |
